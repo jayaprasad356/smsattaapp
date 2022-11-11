@@ -158,17 +158,13 @@ public class betting extends AppCompatActivity {
                 else
                 {
                     AlertDialog.Builder builder1 = new AlertDialog.Builder(betting.this);
-                    builder1.setMessage("You don't have enough wallet balance to place this bet, Recharge your wallet to play");
+                    builder1.setMessage("You don't have enough points");
                     builder1.setCancelable(true);
                     builder1.setPositiveButton(
                             "Recharge",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
-                                    if (getSharedPreferences(constant.prefs,MODE_PRIVATE).getString("is_gateway","0").equals("1")){
-                                        startActivity(new Intent(betting.this, deposit_money.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-                                    } else {
-                                        openWhatsApp();
-                                    }
+                                    openWhatsApp();
                                     dialog.dismiss();
                                 }
                             });

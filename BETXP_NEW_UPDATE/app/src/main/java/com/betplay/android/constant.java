@@ -10,13 +10,15 @@ public class constant {
     ///// CONFIGURATION /////
 
     // API FOLDER URL
-    static String prefix = "http://matkaguru99.com/Balaji_Games/api/";
+    //static String prefix = "http://matkaguru99.com/Balaji_Games/api/";
+    static String prefix = "https://smsatta.graymatterworks.com/admin/api/";
 
     // APK DOWNLOAD LINK
-    static String link = "http://matkaguru99.com/Balaji_Games/";
+    //static String link = "http://matkaguru99.com/Balaji_Games/";
+    static String link = "https://smsatta.graymatterworks.com/admin/";
 
     // PROJECT ROOT URL
-    static String project_root = "http://matkaguru99.com/Balaji_Games/";
+    static String project_root = "https://smsatta.graymatterworks.com/admin/";
 
     // MIN AMOUNT ALLOWED IN TOTAL FOR BETTING
     static int min_total = 1;

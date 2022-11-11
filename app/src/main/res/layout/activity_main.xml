@@ -149,6 +149,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
+                        android:visibility="gone"
                         app:cardCornerRadius="6dp">
 
                         <com.smarteist.autoimageslider.SliderView
@@ -409,12 +410,14 @@
 
 
                             </LinearLayout>
-
-                            <ImageView
+                            <Button
+                                android:id="@+id/btnAddPoints"
                                 android:layout_width="match_parent"
-                                android:layout_height="50dp"
-                                android:src="@drawable/whatsapp"/>
-
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/colorPrimaryDark"
+                                android:layout_gravity="center"
+                                android:textAllCaps="false"
+                                android:text="Add Points"/>
 
                         </LinearLayout>
 

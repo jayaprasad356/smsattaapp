@@ -205,7 +205,7 @@ public class single_bet extends AppCompatActivity {
                     else
                     {
                         AlertDialog.Builder builder1 = new AlertDialog.Builder(single_bet.this);
-                        builder1.setMessage("You don't have enough wallet balance to place this bet, Recharge your wallet to play");
+                        builder1.setMessage("You don't have enough points");
                         builder1.setCancelable(true);
                         builder1.setNegativeButton(
                                 "Close",

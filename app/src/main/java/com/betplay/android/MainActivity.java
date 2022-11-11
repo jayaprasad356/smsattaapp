@@ -11,6 +11,7 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -90,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout passbook;
     private LinearLayout funds;
     private LinearLayout support;
+    Button btnAddPoints;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -375,12 +377,7 @@ public class MainActivity extends AppCompatActivity {
         drawer.getHeader().findViewById(R.id.deposit_money).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (is_gateway.equals("1")) {
-                    startActivity(new Intent(MainActivity.this, deposit_money.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                            .putExtra("action", "deposit"));
-                } else {
-                    openWhatsApp();
-                }
+                openWhatsApp();
             }
         });
 
@@ -557,6 +554,13 @@ public class MainActivity extends AppCompatActivity {
         };
         postRequest.setRetryPolicy(new DefaultRetryPolicy(0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
         requestQueue.add(postRequest);
+
+        btnAddPoints.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openWhatsApp();
+            }
+        });
     }
 
     @Override
@@ -588,6 +592,7 @@ public class MainActivity extends AppCompatActivity {
         hometext = findViewById(R.id.hometext);
         scrollView = findViewById(R.id.scrollView);
         recyclerview = findViewById(R.id.recyclerview);
+        btnAddPoints = findViewById(R.id.btnAddPoints);
 
         game_charts = findViewById(R.id.open_chart);
 //      deposit_money = findViewById(R.id.deposit_money);
@@ -636,7 +641,7 @@ public class MainActivity extends AppCompatActivity {
 
         mybids.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, com.betplay.android.played.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
         passbook.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, com.betplay.android.transactions.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
-        funds.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, com.betplay.android.deposit_money.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
+        funds.setOnClickListener(v -> openWhatsApp());
         support.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, com.betplay.android.Support.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
     }
 }
