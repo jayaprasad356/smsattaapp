@@ -203,10 +203,10 @@ public class MainActivity extends AppCompatActivity {
         game_charts.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, ledger.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
 
 
-        //withdraw_money.setOnClickListener(v -> {
-        //    startActivity(new Intent(MainActivity.this, withdraw.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-        //    openWhatsApp("WITHDRAW REQUEST:");
-        //});
+//         withdraw_money.setOnClickListener(v -> {
+//           startActivity(new Intent(MainActivity.this, withdraw.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+//           openWhatsApp("WITHDRAW REQUEST:");
+//         });
 
 //      wallet_history.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, played.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
 

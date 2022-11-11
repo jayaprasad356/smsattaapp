@@ -133,7 +133,7 @@ class adapter_result extends RecyclerView.Adapter<adapter_result.ViewHolder> {
                 public void onClick(View v) {
                     new androidx.appcompat.app.AlertDialog.Builder(context)
                             .setTitle("Market Close")
-                            .setMessage("Betting is already closed for this market")
+                            .setMessage("Market closed")
                             .setNegativeButton(android.R.string.no, null)
                             .show();
                 }
