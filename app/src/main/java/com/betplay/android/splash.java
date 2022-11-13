@@ -68,7 +68,7 @@ public class splash extends AppCompatActivity {
                                     finish();
                                 }
                                 else {
-                                    Intent in = new Intent(getApplicationContext(), signup.class);
+                                    Intent in = new Intent(getApplicationContext(), login.class);
                                     in.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                     in.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                     startActivity(in);
