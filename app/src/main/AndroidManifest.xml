@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.betplay.android">
+    package="com.betplay.smsattaapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
 
     <application
         android:allowBackup="true"
@@ -14,75 +13,76 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".TransactionList"
+            android:name="com.betplay.smsattaapp.TransactionList"
             android:exported="false" />
         <activity
-            android:name=".Support"
+            android:name="com.betplay.smsattaapp.Support"
             android:exported="false" />
         <activity
-            android:name=".starline_games"
+            android:name="com.betplay.smsattaapp.starline_games"
             android:exported="false" />
         <activity
-            android:name=".starline_timings"
+            android:name="com.betplay.smsattaapp.starline_timings"
             android:exported="false" />
         <activity
-            android:name=".starline_markets"
+            android:name="com.betplay.smsattaapp.starline_markets"
             android:exported="false" />
         <activity
-            android:name=".adapter_number_circles"
+            android:name="com.betplay.smsattaapp.adapter_number_circles"
             android:exported="false" />
         <activity
-            android:name=".SpDpTp"
+            android:name="com.betplay.smsattaapp.SpDpTp"
             android:exported="false" />
         <activity
-            android:name=".SpMotor"
+            android:name="com.betplay.smsattaapp.SpMotor"
             android:exported="false" />
         <activity
-            android:name=".RedBracket"
+            android:name="com.betplay.smsattaapp.RedBracket"
             android:exported="false" />
         <activity
-            android:name=".OddEven"
+            android:name="com.betplay.smsattaapp.OddEven"
             android:exported="false" />
         <activity
-            android:name=".WithdrawDetails"
+            android:name="com.betplay.smsattaapp.WithdrawDetails"
             android:exported="false" />
         <activity
-            android:name=".ForgotPassword"
+            android:name="com.betplay.smsattaapp.ForgotPassword"
             android:exported="false" />
         <activity
-            android:name=".MobileVerification"
+            android:name="com.betplay.smsattaapp.MobileVerification"
             android:exported="false" />
-        <activity android:name=".withdraw" />
-        <activity android:name=".single_bet" />
-        <activity android:name=".games" />
-        <activity android:name=".deposit_money" />
-        <activity android:name=".webview" />
-        <activity android:name=".chart_menu" />
-        <activity android:name=".charts" />
-        <activity android:name=".crossing" />
-        <activity android:name=".earn" />
-        <activity android:name=".fullsangam" />
-        <activity android:name=".halfsangam" />
-        <activity android:name=".betting" />
-        <activity android:name=".splash">
+        <activity android:name="com.betplay.smsattaapp.withdraw" />
+        <activity android:name="com.betplay.smsattaapp.single_bet" />
+        <activity android:name="com.betplay.smsattaapp.games" />
+        <activity android:name="com.betplay.smsattaapp.deposit_money" />
+        <activity android:name="com.betplay.smsattaapp.webview" />
+        <activity android:name="com.betplay.smsattaapp.chart_menu" />
+        <activity android:name="com.betplay.smsattaapp.charts" />
+        <activity android:name="com.betplay.smsattaapp.crossing" />
+        <activity android:name="com.betplay.smsattaapp.earn" />
+        <activity android:name="com.betplay.smsattaapp.fullsangam" />
+        <activity android:name="com.betplay.smsattaapp.halfsangam" />
+        <activity android:name="com.betplay.smsattaapp.betting" />
+        <activity android:name="com.betplay.smsattaapp.splash"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ledger" />
-        <activity android:name=".transactions" />
-        <activity android:name=".played" />
-        <activity android:name=".howot" />
-        <activity android:name=".thankyou" />
-        <activity android:name=".bazar" />
-        <activity android:name=".notice" />
-        <activity android:name=".rate" />
-        <activity android:name=".profile" />
-        <activity android:name=".signup" />
-        <activity android:name=".login" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.betplay.smsattaapp.ledger" />
+        <activity android:name="com.betplay.smsattaapp.transactions" />
+        <activity android:name="com.betplay.smsattaapp.played" />
+        <activity android:name="com.betplay.smsattaapp.howot" />
+        <activity android:name="com.betplay.smsattaapp.thankyou" />
+        <activity android:name="com.betplay.smsattaapp.bazar" />
+        <activity android:name="com.betplay.smsattaapp.notice" />
+        <activity android:name="com.betplay.smsattaapp.rate" />
+        <activity android:name="com.betplay.smsattaapp.profile" />
+        <activity android:name="com.betplay.smsattaapp.signup" />
+        <activity android:name="com.betplay.smsattaapp.login" />
+        <activity android:name="com.betplay.smsattaapp.MainActivity" />
     </application>
 
 </manifest>

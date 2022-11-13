@@ -67,7 +67,7 @@
                             android:textFontWeight="600"
                             android:textSize="22sp" />
 
-                        <com.betplay.android.latobold
+                        <com.betplay.smsattaapp.latobold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true"
@@ -91,7 +91,7 @@
                             android:background="@drawable/wallet_out"
                             android:padding="10dp">
 
-                            <com.betplay.android.latobold
+                            <com.betplay.smsattaapp.latobold
                                 android:id="@+id/balance"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                         android:layout_height="2dp"
                         android:background="#11000000" />
 
-                    <com.betplay.android.latonormal
+                    <com.betplay.smsattaapp.latonormal
                         android:id="@+id/hometext"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -188,7 +188,7 @@
                             android:layout_marginRight="5dp"
                             android:orientation="vertical">
 
-                            <com.betplay.android.latobold
+                            <com.betplay.smsattaapp.latobold
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp"
@@ -231,7 +231,7 @@
                                             android:layout_height="30dp"
                                             android:src="@drawable/winning" />
 
-                                        <com.betplay.android.latobold
+                                        <com.betplay.smsattaapp.latobold
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:gravity="center_horizontal"
@@ -268,7 +268,7 @@
                                             android:layout_height="30dp"
                                             android:src="@drawable/bet_icon" />
 
-                                        <com.betplay.android.latobold
+                                        <com.betplay.smsattaapp.latobold
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:gravity="center_horizontal"
@@ -316,7 +316,7 @@
                                             android:visibility="gone"
                                             android:src="@drawable/cash_icon" />
 
-                                        <com.betplay.android.latobold
+                                        <com.betplay.smsattaapp.latobold
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:gravity="center_horizontal"
@@ -355,7 +355,7 @@
                                             android:layout_height="20dp"
                                             android:src="@drawable/atm_withdraw" />
 
-                                        <com.betplay.android.latobold
+                                        <com.betplay.smsattaapp.latobold
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:gravity="center_horizontal"
@@ -395,7 +395,7 @@
                                             android:layout_height="20dp"
                                             android:src="@drawable/bet_icon" />
 
-                                        <com.betplay.android.latobold
+                                        <com.betplay.smsattaapp.latobold
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:gravity="center_horizontal"
@@ -460,7 +460,7 @@
                                         android:layout_marginTop="10dp"
                                         android:src="@drawable/single_digit" />
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -501,7 +501,7 @@
                                         android:layout_marginTop="10dp"
                                         android:src="@drawable/double_digits" />
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -549,7 +549,7 @@
                                         android:layout_marginTop="10dp"
                                         android:src="@drawable/single_pana" />
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -591,7 +591,7 @@
                                         android:src="@drawable/double_pana" />
 
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -641,7 +641,7 @@
                                         android:src="@drawable/triple_pana" />
 
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -682,7 +682,7 @@
                                         android:src="@drawable/half_sangam" />
 
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -731,7 +731,7 @@
                                         android:src="@drawable/full_sangam" />
 
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -772,7 +772,7 @@
                                         android:src="@drawable/dp_motor" />
 
 
-                                    <com.betplay.android.latonormal
+                                    <com.betplay.smsattaapp.latonormal
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
@@ -815,7 +815,7 @@
                                 android:layout_height="26dp"
                                 android:src="@drawable/todo" />
 
-                            <com.betplay.android.latobold
+                            <com.betplay.smsattaapp.latobold
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
@@ -875,7 +875,7 @@
                     android:src="@drawable/auction"
                     />
 
-                <com.betplay.android.latonormal
+                <com.betplay.smsattaapp.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="My History"
@@ -904,7 +904,7 @@
                     android:src="@drawable/passbook"
                     />
 
-                <com.betplay.android.latonormal
+                <com.betplay.smsattaapp.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Passbook"
@@ -933,7 +933,7 @@
                     android:src="@drawable/wallet_bottom"
                     />
 
-                <com.betplay.android.latonormal
+                <com.betplay.smsattaapp.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Funds"
@@ -961,7 +961,7 @@
                     android:src="@drawable/chat_bottom"
                     />
 
-                <com.betplay.android.latonormal
+                <com.betplay.smsattaapp.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Support"

@@ -1,4 +1,4 @@
-package com.betplay.android;
+package com.betplay.smsattaapp;
 
 import android.content.Context;
 import android.graphics.Color;

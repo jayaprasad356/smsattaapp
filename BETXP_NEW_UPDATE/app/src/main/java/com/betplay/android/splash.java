@@ -1,4 +1,4 @@
-package com.betplay.android;
+package com.betplay.smsattaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 

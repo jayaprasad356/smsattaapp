@@ -2,19 +2,20 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId "com.matka.games.app.user"
+        applicationId "com.betplay.smsattaapp"
         minSdkVersion 19
-        targetSdkVersion 30
-        versionCode 4
-        versionName "1.0.1"
+        targetSdkVersion 31
+        versionCode 5
+        versionName '5.0'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         abortOnError false
     }
+
     buildTypes {
         debug {
             debuggable true

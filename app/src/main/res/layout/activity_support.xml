@@ -52,7 +52,7 @@
 
 
 
-                <com.betplay.android.latobold
+                <com.betplay.smsattaapp.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -89,7 +89,7 @@
                     android:src="@drawable/logo"
                     />
 
-                <com.betplay.android.latobold
+                <com.betplay.smsattaapp.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Satta Online Matka Play"
@@ -99,7 +99,7 @@
                     />
 
 
-                <com.betplay.android.latobold
+                <com.betplay.smsattaapp.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(SUPPORT HELP DESK 24/7)"
@@ -107,7 +107,7 @@
                     android:textSize="16sp"
                     />
 
-                <com.betplay.android.latobold
+                <com.betplay.smsattaapp.latobold
                     android:layout_width="wrap_content"
                     android:paddingLeft="40dp"
                     android:paddingRight="40dp"
